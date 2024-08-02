@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/logo.png</file>
+        <file>image/photo.jpg</file>
+        <file>image/friendTab1.png</file>
+        <file>image/friendTab2.png</file>
+        <file>image/sessionTab1.png</file>
+        <file>image/sessionTab2.png</file>
+        <file>image/applyTab1.png</file>
+        <file>image/applyTab2.png</file>
+    </qresource>
+</RCC>
