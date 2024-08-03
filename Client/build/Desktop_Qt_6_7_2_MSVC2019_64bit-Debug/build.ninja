@@ -76,6 +76,15 @@ build CMakeFiles\Client.dir\mainwidget.cpp.obj: CXX_COMPILER__Client_unscanned_D
   TARGET_COMPILE_PDB = CMakeFiles\Client.dir\
   TARGET_PDB = Client.pdb
 
+build CMakeFiles\Client.dir\sessionfriendlist.cpp.obj: CXX_COMPILER__Client_unscanned_Debug E$:\Code\WeChat_Cpp\Client\sessionfriendlist.cpp || cmake_object_order_depends_target_Client
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
+  INCLUDES = -IE:\Code\WeChat_Cpp\Client\build\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug\Client_autogen\include -external:ID:\ProgramData\QT\6.7.2\msvc2019_64\include\QtCore -external:ID:\ProgramData\QT\6.7.2\msvc2019_64\include -external:ID:\ProgramData\QT\6.7.2\msvc2019_64\mkspecs\win32-msvc -external:ID:\ProgramData\QT\6.7.2\msvc2019_64\include\QtWidgets -external:ID:\ProgramData\QT\6.7.2\msvc2019_64\include\QtGui -external:W0
+  OBJECT_DIR = CMakeFiles\Client.dir
+  OBJECT_FILE_DIR = CMakeFiles\Client.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Client.dir\
+  TARGET_PDB = Client.pdb
+
 build CMakeFiles\Client.dir\Client_autogen\EWIEGA46WW\qrc_resource.cpp.obj: CXX_COMPILER__Client_unscanned_Debug E$:\Code\WeChat_Cpp\Client\build\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug\Client_autogen\EWIEGA46WW\qrc_resource.cpp || cmake_object_order_depends_target_Client
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
@@ -93,7 +102,7 @@ build CMakeFiles\Client.dir\Client_autogen\EWIEGA46WW\qrc_resource.cpp.obj: CXX_
 #############################################
 # Link the executable Client.exe
 
-build Client.exe: CXX_EXECUTABLE_LINKER__Client_Debug CMakeFiles\Client.dir\Client_autogen\mocs_compilation.cpp.obj CMakeFiles\Client.dir\main.cpp.obj CMakeFiles\Client.dir\mainwidget.cpp.obj CMakeFiles\Client.dir\Client_autogen\EWIEGA46WW\qrc_resource.cpp.obj | D$:\ProgramData\QT\6.7.2\msvc2019_64\lib\Qt6Widgetsd.lib D$:\ProgramData\QT\6.7.2\msvc2019_64\lib\Qt6Guid.lib D$:\ProgramData\QT\6.7.2\msvc2019_64\lib\Qt6Cored.lib D$:\ProgramData\QT\6.7.2\msvc2019_64\lib\Qt6EntryPointd.lib || Client_autogen Client_autogen_timestamp_deps
+build Client.exe: CXX_EXECUTABLE_LINKER__Client_Debug CMakeFiles\Client.dir\Client_autogen\mocs_compilation.cpp.obj CMakeFiles\Client.dir\main.cpp.obj CMakeFiles\Client.dir\mainwidget.cpp.obj CMakeFiles\Client.dir\sessionfriendlist.cpp.obj CMakeFiles\Client.dir\Client_autogen\EWIEGA46WW\qrc_resource.cpp.obj | D$:\ProgramData\QT\6.7.2\msvc2019_64\lib\Qt6Widgetsd.lib D$:\ProgramData\QT\6.7.2\msvc2019_64\lib\Qt6Guid.lib D$:\ProgramData\QT\6.7.2\msvc2019_64\lib\Qt6Cored.lib D$:\ProgramData\QT\6.7.2\msvc2019_64\lib\Qt6EntryPointd.lib || Client_autogen Client_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows
   LINK_LIBRARIES = D:\ProgramData\QT\6.7.2\msvc2019_64\lib\Qt6Widgetsd.lib  D:\ProgramData\QT\6.7.2\msvc2019_64\lib\Qt6Guid.lib  D:\ProgramData\QT\6.7.2\msvc2019_64\lib\Qt6Cored.lib  mpr.lib  userenv.lib  D:\ProgramData\QT\6.7.2\msvc2019_64\lib\Qt6EntryPointd.lib  shell32.lib  d3d11.lib  dxgi.lib  dxguid.lib  d3d12.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
@@ -186,7 +195,7 @@ build Client_autogen\timestamp Client_autogen\mocs_compilation.cpp | ${cmake_nin
 #############################################
 # Custom command for Client_autogen\EWIEGA46WW\qrc_resource.cpp
 
-build Client_autogen\EWIEGA46WW\qrc_resource.cpp | ${cmake_ninja_workdir}Client_autogen\EWIEGA46WW\qrc_resource.cpp: CUSTOM_COMMAND E$:\Code\WeChat_Cpp\Client\resource.qrc CMakeFiles\Client_autogen.dir\AutoRcc_resource_EWIEGA46WW_Info.json E$:\Code\WeChat_Cpp\Client\image\photo.jpg E$:\Code\WeChat_Cpp\Client\image\sessionTab2.png E$:\Code\WeChat_Cpp\Client\image\friendTab1.png E$:\Code\WeChat_Cpp\Client\image\applyTab2.png E$:\Code\WeChat_Cpp\Client\image\logo.png E$:\Code\WeChat_Cpp\Client\image\sessionTab1.png E$:\Code\WeChat_Cpp\Client\image\applyTab1.png E$:\Code\WeChat_Cpp\Client\image\friendTab2.png D$:\ProgramData\QT\6.7.2\msvc2019_64\.\bin\rcc.exe D$:\ProgramData\QT\6.7.2\msvc2019_64\.\bin\rcc.exe || Client_autogen Client_autogen_timestamp_deps
+build Client_autogen\EWIEGA46WW\qrc_resource.cpp | ${cmake_ninja_workdir}Client_autogen\EWIEGA46WW\qrc_resource.cpp: CUSTOM_COMMAND E$:\Code\WeChat_Cpp\Client\resource.qrc CMakeFiles\Client_autogen.dir\AutoRcc_resource_EWIEGA46WW_Info.json E$:\Code\WeChat_Cpp\Client\image\photo.jpg E$:\Code\WeChat_Cpp\Client\image\sessionTab2.png E$:\Code\WeChat_Cpp\Client\image\friendTab1.png E$:\Code\WeChat_Cpp\Client\image\applyTab2.png E$:\Code\WeChat_Cpp\Client\image\logo.png E$:\Code\WeChat_Cpp\Client\image\sessionTab1.png E$:\Code\WeChat_Cpp\Client\image\applyTab1.png E$:\Code\WeChat_Cpp\Client\image\friendTab2.png E$:\Code\WeChat_Cpp\Client\image\addButton.png D$:\ProgramData\QT\6.7.2\msvc2019_64\.\bin\rcc.exe D$:\ProgramData\QT\6.7.2\msvc2019_64\.\bin\rcc.exe || Client_autogen Client_autogen_timestamp_deps
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D E:\Code\WeChat_Cpp\Client\build\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug && D:\ProgramData\QT\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc E:/Code/WeChat_Cpp/Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/Client_autogen.dir/AutoRcc_resource_EWIEGA46WW_Info.json Debug"
   DESC = Automatic RCC for resource.qrc
   restat = 1

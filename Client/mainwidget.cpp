@@ -147,7 +147,54 @@ void MainWidget::initMainWindowLeft()
 
 void MainWidget::initMainWindowMid()
 {
+    // 去除默认边框
+    windowMid->setStyleSheet("QWidget { border: none; }");
 
+    ///// 设置网格布局
+    QGridLayout* layout = new QGridLayout();
+    // 设置元素之间的垂直间隔为10 水平间隔为0
+    layout->setVerticalSpacing(10);
+    layout->setHorizontalSpacing(0);
+    // 设置布局里面的元素距离四个边界的间距除了顶部外都为0
+    layout->setContentsMargins(0, 10, 0, 0);
+    windowMid->setLayout(layout);
+
+    ///// 搜索框部件
+    searchEdit = new QLineEdit();
+    searchEdit->setFixedHeight(30);
+    searchEdit->setPlaceholderText("搜索");
+    searchEdit->setStyleSheet("QLineEdit { border-radius: 5px; background-color: #e2e2e2; }");
+
+    ///// 添加按钮部件
+    addButton = new QPushButton();
+    // 设置添加按钮尺寸
+    addButton->setFixedSize(30, 30);
+    // 设置添加按钮图片尺寸和图片
+    addButton->setIconSize(QSize(30, 30));
+    addButton->setIcon(QIcon(":/image/addButton.png"));
+    // 设置样式
+    QString style = "QPushButton { border: none; background-color: #e9e7e6; } QPushButton:pressed { background-color: #2e2e2e; }";
+    addButton->setStyleSheet(style);
+
+    ///// 会话好友列表
+    SessionFriendList* sessionFriendList = new SessionFriendList();
+
+    ///// 添加部件到布局中
+    // 通过添加空白 widget 来控制搜索框和搜索按钮之间的边距
+    QWidget* spacer1 = new QWidget();
+    spacer1->setFixedWidth(10);
+    QWidget* spacer2 = new QWidget();
+    spacer2->setFixedWidth(10);
+    QWidget* spacer3 = new QWidget();
+    spacer3->setFixedWidth(10);
+
+    layout->addWidget(spacer1, 0, 0);
+    layout->addWidget(searchEdit, 0, 1);
+    layout->addWidget(spacer2, 0, 2);
+    layout->addWidget(addButton, 0, 3);
+    layout->addWidget(spacer3, 0, 4);
+    // 整个列表区域放在2行 0列 行方向跨一行 列方向跨五列
+    layout->addWidget(sessionFriendList, 1, 0, 1, 5);
 }
 
 void MainWidget::initMainWindowRight()

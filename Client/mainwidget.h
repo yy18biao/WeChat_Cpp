@@ -5,6 +5,10 @@
 #include <QPushButton>
 #include <QHBoxLayout>
 #include <QVBoxLayout>
+#include <QGridLayout>
+#include <QLineEdit>
+
+#include "sessionfriendlist.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -47,7 +51,8 @@ private:
     TabCur tabCur = SESSION_TAB; // 当前标签页记录
 
     //////// 中间侧部件 ////////
-
+    QLineEdit* searchEdit; // 搜索框
+    QPushButton* addButton; // 添加按钮
 
     //////// 右侧部件 ////////
 

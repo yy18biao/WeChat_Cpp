@@ -16,7 +16,8 @@
 		"E:/Code/WeChat_Cpp/Client/image/logo.png",
 		"E:/Code/WeChat_Cpp/Client/image/sessionTab1.png",
 		"E:/Code/WeChat_Cpp/Client/image/applyTab1.png",
-		"E:/Code/WeChat_Cpp/Client/image/friendTab2.png"
+		"E:/Code/WeChat_Cpp/Client/image/friendTab2.png",
+		"E:/Code/WeChat_Cpp/Client/image/addButton.png"
 	],
 	"LOCK_FILE" : "E:/Code/WeChat_Cpp/Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/Client_autogen.dir/AutoRcc_resource_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,

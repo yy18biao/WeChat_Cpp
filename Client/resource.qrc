@@ -8,5 +8,6 @@
         <file>image/sessionTab2.png</file>
         <file>image/applyTab1.png</file>
         <file>image/applyTab2.png</file>
+        <file>image/addButton.png</file>
     </qresource>
 </RCC>

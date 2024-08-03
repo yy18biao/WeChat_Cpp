@@ -331,6 +331,12 @@
 			"MU",
 			"NLOY5YBGEN/moc_data.cpp",
 			null
+		],
+		[
+			"E:/Code/WeChat_Cpp/Client/sessionfriendlist.h",
+			"MU",
+			"EWIEGA46WW/moc_sessionfriendlist.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -389,7 +395,8 @@
 	"SOURCES" : 
 	[
 		[ "E:/Code/WeChat_Cpp/Client/main.cpp", "MU", null ],
-		[ "E:/Code/WeChat_Cpp/Client/mainwidget.cpp", "MU", null ]
+		[ "E:/Code/WeChat_Cpp/Client/mainwidget.cpp", "MU", null ],
+		[ "E:/Code/WeChat_Cpp/Client/sessionfriendlist.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
